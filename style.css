@@ -20,6 +20,7 @@ body{
     top:100px;
     border:20px solid #bcbab8;
     border-radius: 50%;
+    z-index:1;
        
 }
 .circle2{
@@ -30,7 +31,7 @@ body{
     top:100px;
     border:20px solid #bcbab8;
     border-radius: 50%;
-       
+    z-index:1;
 }
 .circle3{
     position: absolute;
@@ -40,7 +41,7 @@ body{
     top:100px;
     border:20px solid #bcbab8;
     border-radius: 50%;
-       
+    z-index:1;
 }
 .circle4{
     position: absolute;
@@ -50,4 +51,47 @@ body{
     top:100px;
     border:20px solid #bcbab8;
     border-radius: 50%;
+    z-index:1;
+}
+.shadow1{
+    position:absolute;
+    width:900px;
+    height: 150px;
+    background:#414141;
+    
+}
+.shadow2{
+    position:absolute;
+    width:680px;
+    height: 275px;
+    background: #414141;
+    color: red;
+    top:40px;
+    left:100px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+.shadow3{
+    position:absolute;
+    width:100px;
+    height:200px;
+    background: #414141;
+    color: red;
+    top:95px;
+    left:25px;
+    border-bottom-left-radius: 90px;
+    border-top-left-radius:140%;
+    transform: rotateZ(-55deg);
+}
+.shadow4{
+    position:absolute;
+    width:100px;
+    height:200px;
+    background: #414141;
+    color: red;
+    top:80px;
+    right:29px;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius:140%;
+    transform: rotateZ(62deg);
 }
